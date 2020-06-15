@@ -13,7 +13,6 @@ colSums(is.na(NEIdata))
 
 #Question1
 totalEmission <- aggregate(Emissions ~ year, NEIdata, sum)
-totalEmission
 
 barplot(
   (totalEmission$Emissions)/10^6,
